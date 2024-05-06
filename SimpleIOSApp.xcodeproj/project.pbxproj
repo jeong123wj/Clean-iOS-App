@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12C283D2BE90FFF00C46C48 /* NumberFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C283C2BE90FFF00C46C48 /* NumberFormatterExtension.swift */; };
+		F12C28402BE9510200C46C48 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C283F2BE9510200C46C48 /* BaseViewModel.swift */; };
+		F12C28422BE95FA100C46C48 /* BaseViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C28412BE95FA100C46C48 /* BaseViewModifier.swift */; };
 		F1FBA63B2BE05096009C33B1 /* SimpleIOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA63A2BE05096009C33B1 /* SimpleIOSAppApp.swift */; };
-		F1FBA63D2BE05096009C33B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA63C2BE05096009C33B1 /* ContentView.swift */; };
 		F1FBA63F2BE05097009C33B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FBA63E2BE05097009C33B1 /* Assets.xcassets */; };
 		F1FBA6422BE05097009C33B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FBA6412BE05097009C33B1 /* Preview Assets.xcassets */; };
 		F1FBA64C2BE05097009C33B1 /* SimpleIOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA64B2BE05097009C33B1 /* SimpleIOSAppTests.swift */; };
 		F1FBA6562BE05097009C33B1 /* SimpleIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6552BE05097009C33B1 /* SimpleIOSAppUITests.swift */; };
 		F1FBA6582BE05097009C33B1 /* SimpleIOSAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6572BE05097009C33B1 /* SimpleIOSAppUITestsLaunchTests.swift */; };
+		F1FBA67C2BE0C5A9009C33B1 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA67B2BE0C5A9009C33B1 /* PresentationAssembly.swift */; };
+		F1FBA67E2BE0C5D3009C33B1 /* DomainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA67D2BE0C5D3009C33B1 /* DomainAssembly.swift */; };
+		F1FBA6802BE0C5DD009C33B1 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA67F2BE0C5DD009C33B1 /* DataAssembly.swift */; };
+		F1FBA6842BE0C8AB009C33B1 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6832BE0C8AB009C33B1 /* ProductListView.swift */; };
+		F1FBA6862BE0C8F7009C33B1 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6852BE0C8F7009C33B1 /* ProductListViewModel.swift */; };
+		F1FBA6882BE0C913009C33B1 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6872BE0C913009C33B1 /* ProductDetailView.swift */; };
+		F1FBA68A2BE0C920009C33B1 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6892BE0C920009C33B1 /* ProductDetailViewModel.swift */; };
+		F1FBA68C2BE0E368009C33B1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA68B2BE0E368009C33B1 /* Product.swift */; };
+		F1FBA68E2BE0E383009C33B1 /* FetchProductDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA68D2BE0E383009C33B1 /* FetchProductDetailUseCase.swift */; };
+		F1FBA6902BE0E39B009C33B1 /* DefaultProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA68F2BE0E39B009C33B1 /* DefaultProductRepository.swift */; };
+		F1FBA6922BE0E3AB009C33B1 /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6912BE0E3AB009C33B1 /* ProductRepository.swift */; };
+		F1FBA6942BE0E3EE009C33B1 /* ProductResponse+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6932BE0E3EE009C33B1 /* ProductResponse+Mapping.swift */; };
+		F1FBA6962BE0E3F8009C33B1 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6952BE0E3F8009C33B1 /* HttpService.swift */; };
+		F1FBA6982BE0E474009C33B1 /* StoreApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6972BE0E474009C33B1 /* StoreApi.swift */; };
+		F1FBA69E2BE14203009C33B1 /* FetchAllProductsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA69D2BE14203009C33B1 /* FetchAllProductsUseCase.swift */; };
+		F1FBA6A02BE242B7009C33B1 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA69F2BE242B7009C33B1 /* ProductDetail.swift */; };
+		F1FBA6A22BE24482009C33B1 /* ProductDetailResponse+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6A12BE24482009C33B1 /* ProductDetailResponse+Mapping.swift */; };
+		F1FBA6A52BE2D73F009C33B1 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = F1FBA6A42BE2D73F009C33B1 /* Swinject */; };
+		F1FBA6A72BE2D73F009C33B1 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F1FBA6A62BE2D73F009C33B1 /* Swinject-Dynamic */; };
+		F1FBA6AB2BE50592009C33B1 /* AssemblerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBA6AA2BE50592009C33B1 /* AssemblerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F12C283C2BE90FFF00C46C48 /* NumberFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterExtension.swift; sourceTree = "<group>"; };
+		F12C283F2BE9510200C46C48 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		F12C28412BE95FA100C46C48 /* BaseViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModifier.swift; sourceTree = "<group>"; };
 		F1FBA6372BE05096009C33B1 /* SimpleIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FBA63A2BE05096009C33B1 /* SimpleIOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleIOSAppApp.swift; sourceTree = "<group>"; };
-		F1FBA63C2BE05096009C33B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1FBA63E2BE05097009C33B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1FBA6412BE05097009C33B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1FBA6472BE05097009C33B1 /* SimpleIOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleIOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +68,24 @@
 		F1FBA6512BE05097009C33B1 /* SimpleIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FBA6552BE05097009C33B1 /* SimpleIOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleIOSAppUITests.swift; sourceTree = "<group>"; };
 		F1FBA6572BE05097009C33B1 /* SimpleIOSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleIOSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1FBA67B2BE0C5A9009C33B1 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
+		F1FBA67D2BE0C5D3009C33B1 /* DomainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainAssembly.swift; sourceTree = "<group>"; };
+		F1FBA67F2BE0C5DD009C33B1 /* DataAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
+		F1FBA6832BE0C8AB009C33B1 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		F1FBA6852BE0C8F7009C33B1 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		F1FBA6872BE0C913009C33B1 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		F1FBA6892BE0C920009C33B1 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		F1FBA68B2BE0E368009C33B1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F1FBA68D2BE0E383009C33B1 /* FetchProductDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchProductDetailUseCase.swift; sourceTree = "<group>"; };
+		F1FBA68F2BE0E39B009C33B1 /* DefaultProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultProductRepository.swift; sourceTree = "<group>"; };
+		F1FBA6912BE0E3AB009C33B1 /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
+		F1FBA6932BE0E3EE009C33B1 /* ProductResponse+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductResponse+Mapping.swift"; sourceTree = "<group>"; };
+		F1FBA6952BE0E3F8009C33B1 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		F1FBA6972BE0E474009C33B1 /* StoreApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreApi.swift; sourceTree = "<group>"; };
+		F1FBA69D2BE14203009C33B1 /* FetchAllProductsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAllProductsUseCase.swift; sourceTree = "<group>"; };
+		F1FBA69F2BE242B7009C33B1 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		F1FBA6A12BE24482009C33B1 /* ProductDetailResponse+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductDetailResponse+Mapping.swift"; sourceTree = "<group>"; };
+		F1FBA6AA2BE50592009C33B1 /* AssemblerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FBA6A52BE2D73F009C33B1 /* Swinject in Frameworks */,
+				F1FBA6A72BE2D73F009C33B1 /* Swinject-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F12C283B2BE90FCF00C46C48 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F12C283C2BE90FFF00C46C48 /* NumberFormatterExtension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F12C283E2BE950ED00C46C48 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F12C283F2BE9510200C46C48 /* BaseViewModel.swift */,
+				F12C28412BE95FA100C46C48 /* BaseViewModifier.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		F1FBA62E2BE05096009C33B1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +155,11 @@
 		F1FBA6392BE05096009C33B1 /* SimpleIOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				F1FBA63A2BE05096009C33B1 /* SimpleIOSAppApp.swift */,
-				F1FBA63C2BE05096009C33B1 /* ContentView.swift */,
+				F1FBA6682BE0C3F2009C33B1 /* Application */,
+				F1FBA6672BE0C3EE009C33B1 /* Presentation */,
+				F1FBA6662BE0C3EC009C33B1 /* Domain */,
+				F1FBA6652BE0C3EA009C33B1 /* Data */,
+				F1FBA6A92BE504C5009C33B1 /* SwinjectUtil */,
 				F1FBA63E2BE05097009C33B1 /* Assets.xcassets */,
 				F1FBA6402BE05097009C33B1 /* Preview Content */,
 			);
@@ -127,6 +191,174 @@
 			path = SimpleIOSAppUITests;
 			sourceTree = "<group>";
 		};
+		F1FBA6652BE0C3EA009C33B1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA67A2BE0C4FE009C33B1 /* Repository */,
+				F1FBA6792BE0C4FD009C33B1 /* DataMapping */,
+				F1FBA6782BE0C4FC009C33B1 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F1FBA6662BE0C3EC009C33B1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6772BE0C4F9009C33B1 /* Entity */,
+				F1FBA6752BE0C4F2009C33B1 /* UseCase */,
+				F1FBA6742BE0C4ED009C33B1 /* Interface */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F1FBA6672BE0C3EE009C33B1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F12C283E2BE950ED00C46C48 /* Base */,
+				F1FBA66F2BE0C4CB009C33B1 /* ProductList */,
+				F1FBA66E2BE0C4C9009C33B1 /* ProductDetail */,
+				F12C283B2BE90FCF00C46C48 /* Util */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F1FBA6682BE0C3F2009C33B1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA66A2BE0C442009C33B1 /* DI */,
+				F1FBA63A2BE05096009C33B1 /* SimpleIOSAppApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F1FBA66A2BE0C442009C33B1 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA67B2BE0C5A9009C33B1 /* PresentationAssembly.swift */,
+				F1FBA67D2BE0C5D3009C33B1 /* DomainAssembly.swift */,
+				F1FBA67F2BE0C5DD009C33B1 /* DataAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		F1FBA66E2BE0C4C9009C33B1 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6822BE0C7E9009C33B1 /* View */,
+				F1FBA6812BE0C7E8009C33B1 /* ViewModel */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		F1FBA66F2BE0C4CB009C33B1 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6732BE0C4E5009C33B1 /* View */,
+				F1FBA6702BE0C4D8009C33B1 /* ViewModel */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		F1FBA6702BE0C4D8009C33B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6852BE0C8F7009C33B1 /* ProductListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1FBA6732BE0C4E5009C33B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6832BE0C8AB009C33B1 /* ProductListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1FBA6742BE0C4ED009C33B1 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6762BE0C4F5009C33B1 /* Repository */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		F1FBA6752BE0C4F2009C33B1 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA69D2BE14203009C33B1 /* FetchAllProductsUseCase.swift */,
+				F1FBA68D2BE0E383009C33B1 /* FetchProductDetailUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		F1FBA6762BE0C4F5009C33B1 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6912BE0E3AB009C33B1 /* ProductRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F1FBA6772BE0C4F9009C33B1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA68B2BE0E368009C33B1 /* Product.swift */,
+				F1FBA69F2BE242B7009C33B1 /* ProductDetail.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F1FBA6782BE0C4FC009C33B1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6952BE0E3F8009C33B1 /* HttpService.swift */,
+				F1FBA6972BE0E474009C33B1 /* StoreApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F1FBA6792BE0C4FD009C33B1 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6932BE0E3EE009C33B1 /* ProductResponse+Mapping.swift */,
+				F1FBA6A12BE24482009C33B1 /* ProductDetailResponse+Mapping.swift */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		F1FBA67A2BE0C4FE009C33B1 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA68F2BE0E39B009C33B1 /* DefaultProductRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F1FBA6812BE0C7E8009C33B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6892BE0C920009C33B1 /* ProductDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1FBA6822BE0C7E9009C33B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6872BE0C913009C33B1 /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1FBA6A92BE504C5009C33B1 /* SwinjectUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA6AA2BE50592009C33B1 /* AssemblerExtension.swift */,
+			);
+			path = SwinjectUtil;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +375,10 @@
 			dependencies = (
 			);
 			name = SimpleIOSApp;
+			packageProductDependencies = (
+				F1FBA6A42BE2D73F009C33B1 /* Swinject */,
+				F1FBA6A62BE2D73F009C33B1 /* Swinject-Dynamic */,
+			);
 			productName = SimpleIOSApp;
 			productReference = F1FBA6372BE05096009C33B1 /* SimpleIOSApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +451,9 @@
 				Base,
 			);
 			mainGroup = F1FBA62E2BE05096009C33B1;
+			packageReferences = (
+				F1FBA6A32BE2D73F009C33B1 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = F1FBA6382BE05096009C33B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +496,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FBA63D2BE05096009C33B1 /* ContentView.swift in Sources */,
+				F1FBA6AB2BE50592009C33B1 /* AssemblerExtension.swift in Sources */,
+				F1FBA6A02BE242B7009C33B1 /* ProductDetail.swift in Sources */,
+				F1FBA6982BE0E474009C33B1 /* StoreApi.swift in Sources */,
+				F1FBA6922BE0E3AB009C33B1 /* ProductRepository.swift in Sources */,
+				F1FBA69E2BE14203009C33B1 /* FetchAllProductsUseCase.swift in Sources */,
+				F12C283D2BE90FFF00C46C48 /* NumberFormatterExtension.swift in Sources */,
+				F1FBA6842BE0C8AB009C33B1 /* ProductListView.swift in Sources */,
+				F1FBA6882BE0C913009C33B1 /* ProductDetailView.swift in Sources */,
+				F1FBA6942BE0E3EE009C33B1 /* ProductResponse+Mapping.swift in Sources */,
+				F1FBA67C2BE0C5A9009C33B1 /* PresentationAssembly.swift in Sources */,
+				F1FBA6862BE0C8F7009C33B1 /* ProductListViewModel.swift in Sources */,
 				F1FBA63B2BE05096009C33B1 /* SimpleIOSAppApp.swift in Sources */,
+				F12C28402BE9510200C46C48 /* BaseViewModel.swift in Sources */,
+				F1FBA67E2BE0C5D3009C33B1 /* DomainAssembly.swift in Sources */,
+				F1FBA68C2BE0E368009C33B1 /* Product.swift in Sources */,
+				F1FBA6802BE0C5DD009C33B1 /* DataAssembly.swift in Sources */,
+				F1FBA68E2BE0E383009C33B1 /* FetchProductDetailUseCase.swift in Sources */,
+				F1FBA6A22BE24482009C33B1 /* ProductDetailResponse+Mapping.swift in Sources */,
+				F1FBA68A2BE0C920009C33B1 /* ProductDetailViewModel.swift in Sources */,
+				F1FBA6902BE0E39B009C33B1 /* DefaultProductRepository.swift in Sources */,
+				F12C28422BE95FA100C46C48 /* BaseViewModifier.swift in Sources */,
+				F1FBA6962BE0E3F8009C33B1 /* HttpService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +841,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1FBA6A32BE2D73F009C33B1 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = exactVersion;
+				version = 2.8.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1FBA6A42BE2D73F009C33B1 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1FBA6A32BE2D73F009C33B1 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		F1FBA6A62BE2D73F009C33B1 /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1FBA6A32BE2D73F009C33B1 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1FBA62F2BE05096009C33B1 /* Project object */;
 }
